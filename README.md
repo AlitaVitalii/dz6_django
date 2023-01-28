@@ -11,10 +11,10 @@ step_03 dz8 (create_user, delete_users, fixtures)
 step_04 dz9 (OneToOneField, ForeignKey, ManyToManyField)
 
 
-![my_project](https://github.com/AlitaVitalii/dz6_django/static/my_project.png)
+![my_project](https://github.com/AlitaVitalii/dz6_django/tree/main/static/images/my_project.png)
 
-![ForeignKey](https://github.com/AlitaVitalii/dz6_django/static/fk.png)
+![ForeignKey](https://github.com/AlitaVitalii/dz6_django/tree/main/static/images/fk.png)
 
-![ManyToManyField](https://github.com/AlitaVitalii/dz6_django/static/mtm.png)
+![ManyToManyField](https://github.com/AlitaVitalii/dz6_django/tree/main/static/images/mtm.png)
 
-![OneToOneField](https://github.com/AlitaVitalii/dz6_django/static/oto.png)
+![OneToOneField](https://github.com/AlitaVitalii/dz6_django/tree/main/static/images/oto.png)
