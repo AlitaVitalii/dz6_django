@@ -12,14 +12,17 @@ step_04 dz9 (OneToOneField, ForeignKey, ManyToManyField)
 
 ![my_project](https://raw.githubusercontent.com/AlitaVitalii/dz6_django/main/static/images/my_project.png)
 
----
+--- 
+ForeignKey
 
 ![ForeignKey](https://raw.githubusercontent.com/AlitaVitalii/dz6_django/main/static/images/fk.png)
 
 ---
+ManyToManyField
 
 ![ManyToManyField](https://raw.githubusercontent.com/AlitaVitalii/dz6_django/main/static/images/mtm.png)
 
 ---
+OneToOneField
 
 ![OneToOneField](https://raw.githubusercontent.com/AlitaVitalii/dz6_django/main/static/images/oto.png)

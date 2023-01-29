@@ -78,6 +78,32 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-01-29T17:35:24.239Z",
+    "user": 4,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Ben",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-01-29T17:43:04.706Z",
+    "user": 4,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Fed",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
   "model": "auth.user",
   "pk": 4,
   "fields": {
@@ -212,6 +238,30 @@
     "create_date": "2023-01-28T15:34:43Z",
     "product": [
       1,
+      2
+    ]
+  }
+},
+{
+  "model": "catalog.client",
+  "pk": 3,
+  "fields": {
+    "client_name": "Ben",
+    "city": 1,
+    "create_date": "2023-01-29T17:35:01Z",
+    "product": [
+      2
+    ]
+  }
+},
+{
+  "model": "catalog.client",
+  "pk": 4,
+  "fields": {
+    "client_name": "Fed",
+    "city": 1,
+    "create_date": "2023-01-29T17:42:50Z",
+    "product": [
       2
     ]
   }
