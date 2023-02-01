@@ -26,3 +26,7 @@ ManyToManyField
 OneToOneField
 
 ![OneToOneField](https://raw.githubusercontent.com/AlitaVitalii/dz6_django/main/static/images/oto.png)
+
+___
+
+step_05 dz10 (triangle)
