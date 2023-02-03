@@ -10,7 +10,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         my_list = options['arg1']
-        for i in my_list:
+        for i in my_list:  # .exists()
             u1 = User.objects.get(is_superuser=1)
             u2 = User.objects.get(pk=i)
             if u1 == u2:
