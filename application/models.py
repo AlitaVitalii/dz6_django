@@ -8,3 +8,14 @@ class Person(models.Model):
 
     def __str__(self):
         return self.last_name
+
+
+class Logger(models.Model):
+    path = models.CharField(max_length=200)
+    method = models.CharField(max_length=4)
+    query = models.CharField(max_length=200)
+    body = models.TextField()
+    date_time = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return self.method

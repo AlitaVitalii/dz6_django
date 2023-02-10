@@ -32,3 +32,5 @@ ___
 step_05 dz10 (triangle)
 
 step_06 dz11 (Django model form)
+
+step_07 dz12 (Middleware, ModelAdmin)
