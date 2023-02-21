@@ -1,7 +1,33 @@
-from django.shortcuts import get_object_or_404, render
+from application.tasks import send_email_task
 
-from .forms import PersonCreateForm, TriangleForm
+from django.contrib import messages
+from django.shortcuts import get_object_or_404, redirect, render
+
+from .forms import EmailForm, PersonCreateForm, TriangleForm
 from .models import Person
+
+
+def email_form(request):
+    form = EmailForm(request.GET)
+    if form.is_valid():
+        email = form.cleaned_data['email']
+        text = form.cleaned_data['text']
+        date = form.cleaned_data['date']
+        send_email_task.apply_async((
+            email,
+            text
+        ), eta=date)
+        messages.add_message(request, messages.SUCCESS, 'Message sent')
+
+        return redirect('email-name')
+
+    elif request.GET:
+        return render(request, 'email.html', {'form': form})
+
+    else:
+        form = EmailForm()
+
+    return render(request, 'email.html', {'form': form})
 
 
 def triangle(request):

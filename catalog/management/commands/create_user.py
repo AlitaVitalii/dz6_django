@@ -9,7 +9,7 @@ class Command(BaseCommand):
     help = 'Create user'
 
     def add_arguments(self, parser):
-        parser.add_argument('numb', type=int, choices=range(1, 11))
+        parser.add_argument('numb', type=int)
 
     def handle(self, *args, **options):
         fake = Faker()
