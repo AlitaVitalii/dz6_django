@@ -15,7 +15,7 @@ django-celery-results==2.4.0
 django-extensions==3.2.1
 executing==1.2.0
 Faker==16.6.1
-flake8==6.0.0
+flake8==5.0.4
 flake8-django==1.1.5
 flake8-import-order==0.18.2
 flake8-print==5.0.0
@@ -30,8 +30,8 @@ pickleshare==0.7.5
 prompt-toolkit==3.0.36
 ptyprocess==0.7.0
 pure-eval==0.2.2
-pycodestyle==2.10.0
-pyflakes==3.0.1
+pycodestyle==2.9.0
+pyflakes==2.5.0
 Pygments==2.14.0
 pygraphviz==1.10
 python-dateutil==2.8.2
