@@ -23,11 +23,11 @@ class EmailForm(forms.Form):
     text = forms.CharField(widget=forms.Textarea, required=True)
     date = forms.DateTimeField(label="Date sent", initial=timezone.now(), required=True)
 
-    def clean_date(self):
-        data = self.cleaned_data['date']
-        date2 = timezone.now() + timedelta(days=2)
-
-        if timezone.now() > data or data >= date2:
-            raise ValidationError('Error date')
-
-        return data
+    # def clean_date(self):
+    #     data = self.cleaned_data['date']
+    #     date2 = timezone.now() + timedelta(days=2)
+    #
+    #     if timezone.now() > data or data >= date2:
+    #         raise ValidationError('Error date')
+    #
+    #     return data

@@ -45,6 +45,7 @@ INSTALLED_APPS = [
 
     'django_extensions',
     'django_celery_results',
+    'widget_tweaks',
 
     'catalog',
     'application'
